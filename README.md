@@ -1,4 +1,4 @@
-# Smokers_Analysis_Pipeline
+# Pipeline_for_analyzing_expression_levels_of_epithelial_cells_in_smokers_vs_nonsmokers_using_R
 
 Cigarette smoking is the leading cause of preventable death in USA. 
 It causes nearly 1 in 5 deaths. It causes 90% of all lung cancer deaths. 
