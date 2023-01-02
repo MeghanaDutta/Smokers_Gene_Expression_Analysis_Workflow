@@ -141,12 +141,14 @@ legend(x = "topright", box.col = "black", box.lwd = 2 , legend=c("c", "s"),fill 
 # get the top 5 expressing genes 
 tail(sort(p),5)
 [1] 35915.66 36405.26 36988.29 38211.15 41425.52
+
 which(p > 35915.65)
 [1]  4419  6085  7304 12254 22241
 
 # get least 5 expressing genes 
 head(sort(p), 5)
 [1] 1.722228 2.357062 2.628619 2.668868 2.728279
+
 which(p < 2.728280)
 [1]  7128 13683 15795 20264 21081
 
