@@ -16,8 +16,8 @@ data <- K[,-c(1,2)]
 # plot a boxplot to check if the data is normalized. If data is normalized than all columns would be on same level in the boxplot.  
 boxplot(data)
 
-# There are many large and small values in the box plot thereby we can’t have a clear 
-# picture. In order to visualize the data better transform the data in to log2 
+# There are many large and small values in the box plot thereby we can’t have a clear picture. 
+# In order to visualize the data better transform the data in to log2 
 data2 <- log2(data)
 
 # boxplot again 
@@ -129,8 +129,8 @@ pred.dat <- predict(lda.dat,test1)
 # view confusion matrix 
 table(pred.dat$class, column1)
 
-# The total samples that are misclassified are 3. In the first row, 2 samples from smoker got 
-# misclassified as normal and in last row 1 sample from control got misclassified as smoker. 
+# The total samples that are misclassified are 3. 
+# In the first row, 2 samples from smoker got misclassified as normal and in last row 1 sample from control got misclassified as smoker. 
 
 # plot the discriminant functions of all genes versus each other in an xy plot
 plot(pred.dat$x, col = pred.dat$class, bg= as.numeric(factor(pred.dat$class)), pch=21,main='Scores on the 2 discriminant Variables')
