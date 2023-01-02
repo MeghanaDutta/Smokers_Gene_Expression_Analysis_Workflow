@@ -1,5 +1,4 @@
 # Smokers_Analysis_Pipeline
-An analysis pipeline to understand the changes in the epithelial cells of smokers. 
 
 Cigarette smoking is the leading cause of preventable death in USA. 
 It causes nearly 1 in 5 deaths. It causes 90% of all lung cancer deaths. 
