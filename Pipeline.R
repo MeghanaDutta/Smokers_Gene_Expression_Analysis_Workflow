@@ -45,21 +45,18 @@ labels <- c(rep("control", 8), rep("smokers", 7))
 result <- t.test( data3[1, labels == 'control'], data3[1, labels == 'smokers'], var.equal=F )
 result 
 
-# the test statistic is -0.7 which means the controls have less average than the smokers
-# it has 95% confidence interval 
-# the difference between genes is not equal to 0 which means the samples are from 
-# different populations. However, this assessed only from a small sample from the 
-# population. We need to conduct this for all genes. 
+# the test statistic is -0.7 which means the controls have less average than the smokers it has 95% confidence interval 
+# the difference between genes is not equal to 0 which means the samples are from different populations. 
+# However, this assessed only from a small sample from the population. 
+# We need to conduct this for all genes. 
 
 
 # conduct t test for all genes 
 result <- t.test( data3[c(1:7), labels == 'control'], data3[c(8:15), labels == 'smokers'], var.equal=F )
 result 
 
-# the test statistic is -2.2 which means the controls have less average than the smokers
-# it has 95% confidence interval 
-# the difference between genes is not equal to 0 which means the samples are from 
-# different populations. 
+# the test statistic is -2.2 which means the controls have less average than the smokers it has 95% confidence interval 
+# the difference between genes is not equal to 0 which means the samples are from different populations. 
 
 
 # find p-values for all genes 
