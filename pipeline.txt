@@ -1,5 +1,3 @@
-
-
 # obtain the dataset from GEO library 
 library(GEOquery)
 my_id <- "GDS3309"
